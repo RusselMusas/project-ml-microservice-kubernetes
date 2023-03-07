@@ -1,1 +1,6 @@
-<paste log output from Kubernetes-mediated prediction, here>
+NAME                          READY   STATUS    RESTARTS   AGE
+sklearn-api-8fb7cf7ff-nhd2t   1/1     Running   0          8m18s
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000

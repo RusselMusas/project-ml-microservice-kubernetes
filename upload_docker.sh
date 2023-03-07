@@ -6,10 +6,15 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=russelmusas/sklearn-api:v1.0.0
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker tag sklearn-api $dockerpath
+docker images
+docker login
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
